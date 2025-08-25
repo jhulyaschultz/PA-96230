@@ -1,0 +1,26 @@
+.lista-produtos {
+  list-style-type: none;
+  padding: 0;
+  margin: 20px auto;
+  max-width: 500px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.lista-produtos li {
+  padding: 15px 20px;
+  border-bottom: 1px solid #eee;
+  font-size: 16px;
+  color: #333;
+  transition: background-color 0.2s ease;
+}
+
+.lista-produtos li:last-child {
+  border-bottom: none;
+}
+
+.lista-produtos li:hover {
+  background-color: #f5f5f5;
+}
