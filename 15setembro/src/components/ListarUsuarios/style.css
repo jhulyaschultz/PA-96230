@@ -1,0 +1,51 @@
+/* src\components\ListarUsuarios\style.css */
+.listar-usuarios-container {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 32px 24px;
+  background: #000000;
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.10);
+  border: 1px solid #fcfcfc;
+}
+
+.listar-usuarios-container h2 {
+  text-align: center;
+  margin-bottom: 24px;
+  color: #e2e2e2;
+  font-weight: 700;
+}
+
+.listar-usuarios-container table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fafafa;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.listar-usuarios-container th,
+.listar-usuarios-container td {
+  padding: 14px 12px;
+  text-align: left;
+}
+
+.listar-usuarios-container th {
+  background: #700404;
+  color: #fff;
+  font-weight: 6000;
+}
+
+.listar-usuarios-container tr:nth-child(even) {
+  background: #f2f2f2;
+}
+
+.listar-usuarios-container tr:hover {
+  background: #e3f2fd;
+  transition: background 0.2s;
+}
+
+.listar-usuarios-container td {
+  color: #333;
+  border-bottom: 1px solid #e0e0e0;
+}
