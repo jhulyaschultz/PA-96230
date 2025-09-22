@@ -1,3 +1,35 @@
+@media (max-width: 900px) {
+	.footer {
+		padding: 1.2rem 0 1rem 0;
+		font-size: 1rem;
+	}
+	.footer .footer-links {
+		gap: 1rem;
+	}
+	.footer__wrap {
+		width: 98%;
+		padding: 16px 0 20px;
+		font-size: 13px;
+	}
+}
+
+@media (max-width: 600px) {
+	.footer {
+		padding: 0.7rem 0 0.7rem 0;
+		font-size: 0.98rem;
+	}
+	.footer .footer-links {
+		flex-direction: column;
+		gap: 0.5rem;
+	}
+	.footer .footer-logo img {
+		height: 28px;
+	}
+	.footer__wrap {
+		padding: 10px 0 14px;
+		font-size: 12px;
+	}
+}
 /* Footer com padrão visual de Serviços */
 .footer {
 	background: #f1f5f9;

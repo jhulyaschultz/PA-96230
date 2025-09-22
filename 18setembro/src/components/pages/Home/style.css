@@ -1,3 +1,31 @@
+@media (max-width: 900px) {
+	.home {
+		padding: 1rem;
+		max-width: 98vw;
+	}
+	.hero {
+		grid-template-columns: 1fr;
+		gap: 16px;
+	}
+	.socialProof {
+		grid-template-columns: 1fr;
+		gap: 16px;
+	}
+}
+
+@media (max-width: 600px) {
+	.home {
+		padding: 0.5rem;
+		border-radius: 6px;
+	}
+	.hero_text h1, .hero_text h2 {
+		font-size: 1.3rem;
+	}
+	.destaques {
+		padding: 0.5rem;
+		font-size: 0.98rem;
+	}
+}
 /* Home com padrão visual de Serviços */
 .home {
 	max-width: 1200px;

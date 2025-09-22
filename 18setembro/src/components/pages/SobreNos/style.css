@@ -1,3 +1,22 @@
+@media (max-width: 900px) {
+	.sobrenos {
+		padding: 1rem;
+		max-width: 98vw;
+	}
+}
+
+@media (max-width: 600px) {
+	.sobrenos {
+		padding: 0.5rem;
+		border-radius: 6px;
+	}
+	.sobrenos h1 {
+		font-size: 1.2rem;
+	}
+	.sobrenos p, .sobrenos li {
+		font-size: 0.98rem;
+	}
+}
 /* Sobre Nós chique e diferente, inspirado no Fale Conosco */
 .sobrenos {
 	max-width: 600px;

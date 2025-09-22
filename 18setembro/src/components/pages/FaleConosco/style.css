@@ -1,3 +1,22 @@
+@media (max-width: 900px) {
+	.faleconosco {
+		padding: 1rem;
+		max-width: 98vw;
+	}
+}
+
+@media (max-width: 600px) {
+	.faleconosco {
+		padding: 0.5rem;
+		border-radius: 6px;
+	}
+	.faleconosco h1 {
+		font-size: 1.2rem;
+	}
+	.faleconosco p, .faleconosco label, .faleconosco input, .faleconosco textarea, .faleconosco button {
+		font-size: 0.98rem;
+	}
+}
 /* Fale Conosco elegante, campos em colunas, cores sofisticadas */
 .faleconosco {
 	max-width: 500px;
@@ -9,7 +28,7 @@
 	border: 2px solid #f1e7c6;
 }
 .faleconosco h1 {
-	color: #d4af37;
+	color: #e6b61c;
 	font-size: 2rem;
 	margin-bottom: 0.5rem;
 	text-align: center;
@@ -125,7 +144,7 @@ width: 100%;
 padding: 10px 12px;
 border: 1px solid #d1d5db;
 border-radius: 8px;
-background: white;
+background: rgb(255, 255, 255);
 }
 .field input:focus, .field textarea:focus { outline: 2px solid #93c5fd; border-color: #93c5fd; }
 

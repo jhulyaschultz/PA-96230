@@ -1,3 +1,26 @@
+@media (max-width: 900px) {
+	.servicos {
+		padding: 1rem;
+		max-width: 98vw;
+	}
+	.grid {
+		grid-template-columns: 1fr;
+		gap: 1rem;
+	}
+	.card {
+		padding: 1rem 0.7rem;
+	}
+}
+
+@media (max-width: 600px) {
+	.servicos {
+		padding: 0.5rem;
+		border-radius: 6px;
+	}
+	.card h2 {
+		font-size: 1rem;
+	}
+}
 /* src\components\pages\Servicos\style.css */
 .servicos {
 	max-width: 900px;
