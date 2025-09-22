@@ -2,33 +2,34 @@
 
 import './style.css';
 
+
 function Home() {
     return (
         <section className='home'>
             <div className='hero_text'>
-                <h1>Transforme a Gestão do Seu Negócio</h1>
-                <h2>Contabilidade Inteligente, Sucesso Garantido</h2>
-                <p>
-                    Bem-vindo à <b>Contabilidade XYZ</b>, onde tecnologia, experiência e atendimento humano se unem para impulsionar o crescimento da sua empresa.<br/>
-                    De microempresas a grandes negócios, oferecemos soluções personalizadas, consultoria estratégica e total transparência.<br/>
-                    <span style={{color:'#2e7d32', fontWeight:'bold'}}>Confiança, inovação e resultados para você focar no que realmente importa!</span>
+                <h1 style={{color:'#d4af37'}}>Seu Sucesso, Nossa Especialidade</h1>
+                <h2 style={{color:'#222'}}>Contabilidade Premium para Empresas Visionárias</h2>
+                <p style={{fontSize:'1.15em'}}>
+                    <b style={{color:'#bfa133'}}>Bem-vindo à Contabilidade XYZ</b>, onde tradição e tecnologia se unem para criar oportunidades e resultados reais.<br/>
+                    <span style={{color:'#222'}}>Atendemos de startups a grandes empresas com soluções sob medida, consultoria estratégica e atendimento próximo.<br/>
+                    <span style={{color:'#d4af37', fontWeight:'bold'}}>Transparência, inovação e confiança para você crescer sem limites.</span></span>
                 </p>
-                <a href='/Servicos' className='btn primary'>Conheça nossos serviços</a>
+                <a href='/servicos' className='btn primary'>Conheça nossos serviços</a>
             </div>
-            <div className='hero_img'>
-                <img src='/vite.svg' alt='Contabilidade moderna' style={{maxWidth:'320px'}} />
-            </div>
-            <div className='destaques'>
-                <h3>Por que escolher a gente?</h3>
-                <ul>
-                    <li>✔️ Atendimento consultivo e próximo</li>
-                    <li>✔️ Soluções digitais e seguras</li>
-                    <li>✔️ Redução de custos e riscos</li>
-                    <li>✔️ Suporte rápido e eficiente</li>
+            {/* Imagem removida conforme solicitado */}
+            <div className='destaques' style={{display:'flex', flexDirection:'column', alignItems:'center', justifyContent:'center', textAlign:'center', margin:'2rem 0', width:'100%'}}>
+                <h3 style={{color:'#bfa133', textAlign:'center'}}>Por que escolher a XYZ?</h3>
+                <ul style={{textAlign:'center', listStylePosition:'inside', padding:0, margin:0}}>
+                    <li>✔️ Atendimento consultivo, humano e ágil</li>
+                    <li>✔️ Soluções digitais, seguras e inovadoras</li>
+                    <li>✔️ Redução de custos, riscos e burocracia</li>
+                    <li>✔️ Suporte especializado em todas as etapas</li>
                 </ul>
             </div>
             <div className='cta'>
-                <p>Pronto para evoluir sua empresa? <a href='/FaleConosco' className='btn secondary'>Fale com um especialista</a></p>
+                <p style={{fontWeight:'bold', color:'#222'}}>Pronto para transformar sua empresa?<br/>
+                    <a href='/fale-conosco' className='btn secondary'>Fale com um especialista</a>
+                </p>
             </div>
         </section>
     );

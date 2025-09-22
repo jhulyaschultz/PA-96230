@@ -1,0 +1,169 @@
+/* Fale Conosco elegante, campos em colunas, cores sofisticadas */
+.faleconosco {
+	max-width: 500px;
+	margin: 2.5rem auto;
+	padding: 2.5rem 2rem 2rem 2rem;
+	background: #fff;
+	border-radius: 16px;
+	box-shadow: 0 4px 32px 0 rgba(212,175,55,0.10), 0 1.5px 0 #d4af37;
+	border: 2px solid #f1e7c6;
+}
+.faleconosco h1 {
+	color: #d4af37;
+	font-size: 2rem;
+	margin-bottom: 0.5rem;
+	text-align: center;
+	letter-spacing: 1px;
+}
+.faleconosco p {
+	color: #374151;
+	font-size: 1.1rem;
+	margin-bottom: 2rem;
+	text-align: center;
+}
+.faleconosco form {
+	display: flex;
+	flex-direction: column;
+	gap: 1.2rem;
+}
+.faleconosco label {
+	display: flex;
+	flex-direction: column;
+	gap: 0.3rem;
+	font-weight: 500;
+	color: #222;
+}
+.faleconosco input,
+.faleconosco textarea {
+	padding: 0.8rem 1rem;
+	border: 1.5px solid #d4af37;
+	border-radius: 8px;
+	font-size: 1rem;
+	background: #fffbe6;
+	color: #222;
+	transition: border 0.2s, box-shadow 0.2s;
+	box-shadow: 0 1px 4px #d4af3722;
+}
+.faleconosco input:focus,
+.faleconosco textarea:focus {
+	outline: none;
+	border: 2px solid #bfa133;
+	box-shadow: 0 0 8px #d4af37;
+}
+.faleconosco textarea {
+	min-height: 120px;
+	resize: vertical;
+}
+.faleconosco button[type="submit"] {
+	background: linear-gradient(90deg, #d4af37 60%, #fffbe6 100%);
+	color: #111;
+	border: none;
+	border-radius: 8px;
+	padding: 0.9rem 1.5rem;
+	font-size: 1.1rem;
+	font-weight: 700;
+	cursor: pointer;
+	margin-top: 0.5rem;
+	box-shadow: 0 2px 12px #d4af3733;
+	transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+}
+.faleconosco button[type="submit"]:hover {
+	background: linear-gradient(90deg, #fffbe6 0%, #d4af37 100%);
+	color: #222;
+	box-shadow: 0 4px 18px #d4af37aa;
+}
+/* Fale Conosco com padrão visual de Serviços */
+.faleconosco {
+	max-width: 1200px;
+	margin: 2rem auto;
+	padding: 2rem;
+	background: #fff;
+	border-radius: 12px;
+	box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+.faleconosco h1 {
+	color: #000000;
+	font-size: 2rem;
+	margin-bottom: 1rem;
+}
+.faleconosco p {
+	color: #374151;
+	font-size: 1.1rem;
+	margin-bottom: 1.5rem;
+}
+.faleconosco form {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+}
+.faleconosco input,
+.faleconosco textarea {
+	padding: 0.7rem 1rem;
+	border: 1px solid #e5e7eb;
+	border-radius: 6px;
+	font-size: 1rem;
+}
+.faleconosco button {
+	background: #000000;
+	color: #fff;
+	border: none;
+	border-radius: 6px;
+	padding: 0.7rem 1.5rem;
+	font-size: 1rem;
+	cursor: pointer;
+	transition: background 0.2s;
+}
+.faleconosco button:hover {
+	background: #000000;
+}
+/* src\components\pages\FaleConosco\style.css */
+.contato { display: grid; gap: 14px; }
+.form { display: grid; gap: 12px; }
+.field { display: grid; gap: 6px; }
+.field input, .field textarea {
+width: 100%;
+padding: 10px 12px;
+border: 1px solid #d1d5db;
+border-radius: 8px;
+background: white;
+}
+.field input:focus, .field textarea:focus { outline: 2px solid #93c5fd; border-color: #93c5fd; }
+
+.faleconosco {
+	max-width: 600px;
+	margin: 2rem auto;
+	padding: 2rem;
+	background: #fff;
+	border-radius: 12px;
+	box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+.faleconosco h1 {
+	color: #0e0e0e;
+	font-size: 2rem;
+	margin-bottom: 1rem;
+}
+.faleconosco form {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+}
+.faleconosco input,
+.faleconosco textarea {
+	padding: 0.7rem 1rem;
+	border: 1px solid #e5e7eb;
+	border-radius: 6px;
+	font-size: 1rem;
+}
+.faleconosco button {
+	background: #1976d2;
+	color: #fff;
+	border: none;
+	border-radius: 6px;
+	padding: 0.7rem 1.5rem;
+	font-size: 1rem;
+	cursor: pointer;
+	transition: background 0.2s;
+}
+.faleconosco button:hover {
+	background: #125ea2;
+}

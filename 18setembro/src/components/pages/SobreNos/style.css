@@ -1,0 +1,77 @@
+/* Sobre Nós chique e diferente, inspirado no Fale Conosco */
+.sobrenos {
+	max-width: 600px;
+	margin: 2.5rem auto;
+	padding: 2.5rem 2rem 2rem 2rem;
+	background: linear-gradient(135deg, #fffbe6 60%, #f7e9b0 100%);
+	border-radius: 16px;
+	box-shadow: 0 4px 32px 0 rgba(212,175,55,0.10), 0 1.5px 0 #d4af37;
+	border: 2px solid #e2bc3d;
+}
+.sobrenos h1 {
+	color: #d4af37;
+	font-size: 2rem;
+	margin-bottom: 0.5rem;
+	text-align: center;
+	letter-spacing: 1px;
+}
+.sobrenos p {
+	color: #374151;
+	font-size: 1.1rem;
+	margin-bottom: 2rem;
+	text-align: center;
+}
+.sobrenos ul {
+	background: #fffbe6;
+	border-radius: 8px;
+	padding: 1.2rem 1rem;
+	box-shadow: 0 1px 4px #d4af3722;
+	margin: 1.5rem 0 0 0;
+	color: #222;
+	font-size: 1.05rem;
+	list-style: disc inside;
+}
+.sobrenos li {
+	margin-bottom: 0.5rem;
+}
+/* Sobre Nós com padrão visual de Serviços */
+.sobrenos {
+	max-width: 1200px;
+	margin: 2rem auto;
+	padding: 2rem;
+	background: #fff;
+	border-radius: 12px;
+	box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+.sobrenos h1 {
+	color: #050505;
+	font-size: 2rem;
+	margin-bottom: 1rem;
+}
+.sobrenos p {
+	color: #374151;
+	font-size: 1.1rem;
+	margin-bottom: 1.5rem;
+}
+/* Sobre Nós moderno inspirado na Contabilizei */
+.sobrenos {
+	max-width: 900px;
+	margin: 2rem auto;
+	padding: 2rem;
+	background: #fff;
+	border-radius: 12px;
+	box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+.sobrenos h1 {
+	color: #070707;
+	font-size: 2rem;
+	margin-bottom: 1rem;
+}
+.sobrenos p {
+	color: #374151;
+	font-size: 1.1rem;
+	margin-bottom: 1.5rem;
+}
+/* src\components\pages\SobreNos\style.css */
+.sobre { display: grid; gap: 12px; }
+.sobre ul { margin: 0; padding-left: 18px; }

@@ -2,25 +2,28 @@
 
 import './style.css';
 
+
 function SobreNos() {
     return (
-        < section className='sobre'>
+    <section className="sobrenos">
             <h1>Sobre Nós</h1>
-            <p>Somos uma empresa de contabilidade dedicada a fornecer serviços de alta 
-                qualidade para nossos clientes. Com anos de experiência no setor, nossa equipe
-                 de profissionais está comprometida em ajudar empresas a crescer e prosperar.
+            <p>
+                <b style={{color:'#d4af37', fontSize:'1.15em'}}>Excelência, confiança e inovação em contabilidade.</b><br/>
+                <span style={{color:'#222'}}>Há mais de uma década, transformamos números em oportunidades e resultados para nossos clientes.<br/>
+                Nossa equipe une experiência, tecnologia de ponta e atendimento humano para impulsionar o crescimento de empresas de todos os portes.</span>
             </p>
             <ul>
-                <li>Serviços personalizados para atender às necessidades específicas de cada cliente.</li>
-                <li>Equipe experiente e qualificada.</li>
-                <li>Compromisso com a excelência e a satisfação do cliente.</li>
-                <li>Uso de tecnologia avançada para otimizar processos contábeis.</li>
-                <li>Consultoria financeira para ajudar empresas a tomar decisões informadas.</li>
+                <li><b>Atendimento personalizado</b> para cada necessidade.</li>
+                <li><b>Profissionais certificados</b> e apaixonados pelo que fazem.</li>
+                <li><b>Foco total na sua tranquilidade</b> e no sucesso do seu negócio.</li>
+                <li><b>Tecnologia e automação</b> para processos ágeis e seguros.</li>
+                <li><b>Consultoria estratégica</b> para decisões financeiras inteligentes.</li>
             </ul>
-           
-        </section >
-
-    )
+            <div style={{marginTop:'2rem', textAlign:'center'}}>
+                <span style={{color:'#bfa133', fontWeight:'bold', fontSize:'1.1em'}}>Conte com a gente para ir além da contabilidade tradicional.</span>
+            </div>
+        </section>
+    );
 }
 
 export default SobreNos;

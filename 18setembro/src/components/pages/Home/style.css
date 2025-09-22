@@ -1,0 +1,172 @@
+/* Home com padrão visual de Serviços */
+.home {
+	max-width: 1200px;
+	margin: 2rem auto;
+	padding: 2rem;
+	background: #fff;
+	border-radius: 12px;
+	box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+.home h1 {
+	color: #096dd1;
+	font-size: 2.5rem;
+	margin-bottom: 1rem;
+}
+.home h2 {
+	color: #eeb600;
+	font-size: 1.7rem;
+	margin-bottom: 1rem;
+}
+.home p {
+	color: #374151;
+	font-size: 1.15rem;
+	margin-bottom: 1.5rem;
+}
+/* Home moderno inspirado em sites de contabilidade */
+.home {
+	max-width: 1200px;
+	margin: 2rem auto;
+	padding: 2rem;
+	background: #fff;
+	border-radius: 12px;
+	box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 2rem;
+}
+.hero_text {
+	text-align: center;
+}
+.hero_text h1 {
+	color: #1976d2;
+	font-size: 2.5rem;
+	margin-bottom: 0.5rem;
+}
+.hero_text h2 {
+	color: #d4af37;
+	font-size: 1.7rem;
+	margin-bottom: 1rem;
+}
+.hero_text p {
+	color: #374151;
+	font-size: 1.15rem;
+	margin-bottom: 1.5rem;
+}
+.hero_img {
+	margin: 1rem 0;
+}
+.destaques {
+	background: #f7fafc;
+	border-radius: 8px;
+	padding: 1.5rem 1rem;
+	box-shadow: 0 1px 4px rgba(0,0,0,0.03);
+	text-align: center;
+	max-width: 600px;
+}
+.destaques h3 {
+	color: #1976d2;
+	margin-bottom: 1rem;
+}
+.destaques ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.destaques li {
+	color: #222;
+	font-size: 1.05rem;
+	margin-bottom: 0.5rem;
+}
+.cta {
+	margin-top: 1.5rem;
+	text-align: center;
+}
+.btn {
+	display: inline-block;
+	padding: 0.7rem 1.5rem;
+	border-radius: 6px;
+	font-size: 1rem;
+	font-weight: 600;
+	text-decoration: none;
+	transition: background 0.2s, color 0.2s;
+	cursor: pointer;
+}
+.btn.primary {
+	background: #000000;
+	color: #fff;
+	border: none;
+}
+.btn.primary:hover {
+	background: #1f75c0;
+}
+.btn.secondary {
+	background: #d4af37;
+	color: #111;
+	border: none;
+}
+.btn.secondary:hover {
+	background: #bfa133;
+	color: #fff;
+}
+@media (max-width: 900px) {
+	.home {
+		padding: 1rem;
+	}
+	.destaques {
+		padding: 1rem 0.5rem;
+	}
+}
+/* Home moderno inspirado na Contabilizei */
+.home {
+	max-width: 1200px;
+	margin: 2rem auto;
+	padding: 2rem;
+	background: #fff;
+	border-radius: 12px;
+	box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+	text-align: center;
+}
+.home h1 {
+	color: #0078f0;
+	font-size: 2.5rem;
+	margin-bottom: 1rem;
+}
+.home p {
+	color: #374151;
+	font-size: 1.2rem;
+	margin-bottom: 2rem;
+}
+/* src\components\pages\Home\style.css */
+.home { display: grid; gap: 36px; }
+
+/* HERO */
+.hero {
+display: grid;
+grid-template-columns: 1.2fr 1fr;
+align-items: center;
+gap: 24px;
+}
+.hero__text h1 {
+font-size: clamp(28px, 4vw, 44px);
+margin: 0 0 10px;
+}
+.hero__text p { font-size: 18px; line-height: 1.6; }
+.hero__cta { margin-top: 16px; display: flex; gap: 12px; flex-wrap: wrap; }
+.hero__image img {
+width: 100%; height: auto; border-radius: 14px; object-fit: cover;
+box-shadow: 0 10px 30px rgba(0,0,0,.08);
+}
+
+/* FEATURES */
+.features h2 { margin: 0 0 12px; }
+
+/* SOCIAL PROOF */
+.socialProof { display: grid; grid-template-columns: 1fr 1.2fr; gap: 24px; align-items: center; }
+.socialProof__image img { width: 100%; height: auto; border-radius: 12px; }
+.socialProof__text h2 { margin: 0 0 8px; }
+
+/* Responsivo */
+@media (max-width: 900px) {
+.hero, .socialProof { grid-template-columns: 1fr; }
+}

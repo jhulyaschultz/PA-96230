@@ -1,0 +1,56 @@
+/* src\components\pages\Servicos\style.css */
+.servicos {
+	max-width: 900px;
+	margin: 2.5rem auto;
+	padding: 2.5rem 2rem 2rem 2rem;
+	background: linear-gradient(135deg, #fffbe6 60%, #f7e9b0 100%);
+	border-radius: 16px;
+	box-shadow: 0 4px 32px 0 rgba(212,175,55,0.10), 0 1.5px 0 #d4af37;
+	border: 2px solid #d4af37;
+}
+.servicos h1 {
+	color: #0c0c0b;
+	font-size: 2rem;
+	margin-bottom: 0.5rem;
+	text-align: center;
+	letter-spacing: 1px;
+}
+.servicos p {
+	color: #374151;
+	font-size: 1.1rem;
+	margin-bottom: 2rem;
+	text-align: center;
+}
+.grid {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 2rem;
+}
+.card {
+	background: #fff;
+	border-radius: 12px;
+	padding: 2rem 1.2rem 1.5rem 1.2rem;
+	box-shadow: 0 2px 16px #d4af3722;
+	border: 2px solid #f1e7c6;
+	text-align: center;
+	transition: box-shadow 0.2s, border 0.2s;
+}
+.card:hover {
+	box-shadow: 0 4px 24px #d4af37aa;
+	border: 2px solid #d4af37;
+}
+.card h2 {
+	color: #d8ad11;
+	font-size: 1.25rem;
+	margin-bottom: 0.7rem;
+	letter-spacing: 0.5px;
+}
+.card p {
+	color: #222;
+	font-size: 1.05rem;
+}
+@media (max-width: 900px) {
+	.grid {
+		grid-template-columns: 1fr;
+	}
+}

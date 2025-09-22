@@ -13,6 +13,29 @@
 }
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
+body {
+  margin: 0;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  background: #f7fafc;
+  color: #1a202c;
+}
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  flex: 1;
+  padding: 2rem 0;
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 1rem 0;
+  }
+}
 }
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);

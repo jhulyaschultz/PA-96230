@@ -1,1 +1,65 @@
+/* Footer com padrão visual de Serviços */
+.footer {
+	background: #f1f5f9;
+	color: #374151;
+	text-align: center;
+	padding: 1.5rem 0 1rem 0;
+	font-size: 1rem;
+	border-top: 1px solid #e5e7eb;
+	margin-top: 2rem;
+}
+/* Footer sofisticado: preto, branco e dourado */
+.footer {
+	background: #111111;
+	color: #fff;
+	text-align: center;
+	padding: 2rem 0 1.2rem 0;
+	font-size: 1.1rem;
+	border-top: 2px solid #d4af37;
+	margin-top: 2rem;
+	position: relative;
+}
+.footer .footer-logo {
+	display: inline-block;
+	margin-bottom: 0.7rem;
+}
+.footer .footer-logo img {
+	height: 38px;
+	filter: brightness(0) invert(1);
+}
+.footer .footer-links {
+	margin: 1rem 0 0.5rem 0;
+	display: flex;
+	justify-content: center;
+	gap: 2rem;
+}
+.footer .footer-link {
+	color: #d4af37;
+	text-decoration: none;
+	font-weight: 500;
+	transition: color 0.2s;
+}
+.footer .footer-link:hover {
+	color: #fff;
+	text-shadow: 0 0 8px #d4af37;
+}
+.footer .footer-copy {
+	color: #bbb;
+	font-size: 0.95rem;
+	margin-top: 1rem;
+}
 /* src\components\Footer\style.css */
+.footer {
+margin-top: auto; /* empurra o footer para o fundo da página */
+background: #111827; /* quase preto */
+color: #e5e7eb; /* cinza-200 */
+}
+.footer__wrap {
+width: min(1100px, 92%);
+margin: 0 auto;
+padding: 20px 0 28px;
+display: grid;
+gap: 8px;
+font-size: 14px;
+}
+.copy { opacity: .8; }
